@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe</title>
+    <link rel="icon" href="imgs/download-removebg-preview.png">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+ </head>
+<body>
+ <header>
+  <nav class="navbar navbar-expand-lg navbar-light p-0 position-fixed  ">
+    <div class="container">
+  <a class="navbar-brand" href="#"><img  src="imgs/ef01e949a6e96df4e831f683ade2a3c2-removebg-preview.png"></a>
+  <button class="navbar-toggler bg-light" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse " id="navbarTogglerDemo02" style>
+    <ul class="navbar-nav ml-auto ">
+      <li class="nav-item px-3">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item dropdown px-3">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         Menu
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+
+            <a class="dropdown-item" href="#menu">Cake</a>
+            <a class="dropdown-item" href="#menu">Chicken</a>
+            <a class="dropdown-item" href="#menu">Chips</a>
+            <a class="dropdown-item" href="#menu">Chocolate</a>
+            <a class="dropdown-item" href="#menu">Fish</a>
+            <a class="dropdown-item" href="#menu">Fries</a>
+            <a class="dropdown-item" href="#menu">Hamburger</a>
+            <a class="dropdown-item" href="#menu">Ice Cream</a>
+            <a class="dropdown-item" href="#menu">kebab</a>
+            <a class="dropdown-item" href="#menu">Lamb</a>
+            <a class="dropdown-item" href="#menu">Pasta</a>
+            <a class="dropdown-item" href="#menu">Pie</a>
+            <a class="dropdown-item" href="#menu">Pizza</a>
+            <a class="dropdown-item" href="#menu">Popcorn</a>
+          <a class="dropdown-item" href="#menu">Salad</a>
+          <a class="dropdown-item" href="#menu">Seafood</a>
+          <a class="dropdown-item" href="#menu">Steak</a>
+          <a class="dropdown-item" href="#menu">Sushi</a>
+          <a class="dropdown-item" href="#menu">Turkey</a> 
+          
+        </div>
+      </li>
+      <li class="nav-item  px-3">
+        <a class="nav-link" href="#contact">Contact<span class="sr-only">(current)</span></a>
+      </li>
+  </div>
+</div>
+</nav>
+</header>
+
+<!-- //////////////////////////////////////////////////////////////////////////// -->
+<section id="menu">  
+  <div class="container py-5" >
+    <h1 class="text-center text-info font-weight-bolder">Our Recipes</h1>
+      <div class="row" id="postsRow">
+         
+      </div>
+  </div>
+</section>
+
+<!-- /////////////////////////////////////////////////////////////////////////// -->
+
+<section id="contact">
+  <div class="container">
+    <h2 class="text-info text-center font-weight-bolder">Contact Us</h2>
+    <div class="row">
+      <div class="col-md-6 mt-4 form-group">
+        <input class="form-control p-4" placeholder="Your Name" type="text" name="name" id="name">
+        <span id="name-valid" class="text-danger"></span>
+    </div>
+    <div class="col-md-6 mt-4 form-group">
+        <input class="form-control p-4" placeholder="Your Email" type="email" name="email" id="email">
+        <span id="email-valid" class="text-danger"></span>
+
+    </div>
+    <div class="col-md-12 mt-4 ">
+        <input class="form-control p-3" placeholder="Your Subject.." type="text" name="subject"
+            id="subject">
+
+    </div>
+    <div class="col-md-12 mt-4 form-group">
+        <textarea name="message" class="form-control" placeholder="Your message..." id="message"
+            rows="4"></textarea>
+            <span id="msg-valid" class="text-danger"></span>
+
+    </div>
+    <div class="col-md-12 mt-4 d-flex justify-content-end">
+        <div>
+            <button id="sendBtn" class="text-uppercase btn text-white btn-info" >send message</button>
+        </div>
+    </div>
+  </div>
+</div>
+</section>
+<footer class="text-center">
+    <div class="bg-dark text-muted border-top border-info p-3 mt-4">
+      <h6>CopyRights &copy; are Reserved to Zainab Mohamed</h6>
+    </div>
+</footer>
+
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script src="js/jquery-3.5.1.slim.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
